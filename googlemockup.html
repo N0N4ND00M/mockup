@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Mockup</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <style>
+    /* Grundläggande styling */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fff;
+      color: #202124;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+      margin-top: 15vh;
+      width: 90%;
+      max-width: 600px;
+    }
+    /* Google-logotypen */
+    .logo {
+      font-size: 72px;
+      font-weight: 400;
+      color: #4285f4;
+      margin-bottom: 40px;
+    }
+    /* Sökfältet */
+    .search-box {
+      width: 100%;
+      padding: 14px 20px;
+      border: 1px solid #dcdcdc;
+      border-radius: 24px;
+      font-size: 16px;
+      box-shadow: 0 1px 3px rgba(60,64,67,0.3);
+      outline: none;
+      transition: box-shadow 0.3s, border 0.3s;
+    }
+    .search-box:focus {
+      border: 1px solid #4285f4;
+      box-shadow: 0 2px 6px rgba(60,64,67,0.3);
+    }
+    /* Knapparna */
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    .button {
+      padding: 10px 20px;
+      font-size: 14px;
+      color: #3c4043;
+      background-color: #f8f9fa;
+      border: 1px solid #f8f9fa;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+    .button:hover {
+      background-color: #f1f3f4;
+      border-color: #c6c6c6;
+    }
+    /* Footer med länkar */
+    .footer {
+      margin-top: auto;
+      padding: 20px 0;
+      font-size: 12px;
+      color: #70757a;
+    }
+    .footer a {
+      color: #70757a;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">Google</div>
+    <input type="text" class="search-box" placeholder="Sök på Google eller skriv en URL">
+    <div class="buttons">
+      <button class="button">Google Sök</button>
+      <button class="button">Jag känner mig lycklig</button>
+    </div>
+  </div>
+  <div class="footer">
+    <a href="#">Om</a>
+    <a href="#">Reklam</a>
+    <a href="#">Affärer</a>
+    <a href="#">Sök</a>
+    <span>|</span>
+    <a href="#">Integritet</a>
+    <a href="#">Villkor</a>
+    <a href="#">Inställningar</a>
+  </div>
+</body>
+</html>
